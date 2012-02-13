@@ -8,7 +8,6 @@ zap org.hamcrest.**
 zap org.openqa.selenium.server.SeleniumServer
 zap org.w3c.**
 zap org.xml.sax.**
-keep org.openqa.selenium.support.ui.** 
 keep com.google.android.testing.nativedriver.**
 keep com.google.common.base.Strings
 keep com.google.common.collect.DiscreteDomains
@@ -25,4 +24,4 @@ keep com.google.common.io.LittleEndianDataInputStream
 keep com.google.common.primitives.Ints
 keep javax.servlet.**
 keep org.mortbay.**
-
+keep org.openqa.selenium.support.ui.**
