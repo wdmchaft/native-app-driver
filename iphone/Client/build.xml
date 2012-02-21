@@ -51,7 +51,7 @@ limitations under the License.
   </target>
 
   <target name="standalone-client" depends="jar-client">
-    <zip destfile="${build.dir}/ios-client-standalone.jar">
+    <zip destfile="${build.dir}/${client.standalonejar}">
       <zipfileset src="${build.dir}/ios-client.jar"
           excludesfile="${client.resourcestoexclude}" />
       <zipfileset src="${third_party.logging}"
@@ -70,7 +70,7 @@ limitations under the License.
   </target>
 
   <target name="eclipse-references" depends="standalone-client">
-    <copy file="${build.dir}/ios-client-standalone.jar" todir="test/" />
+    <copy file="${build.dir}/${client.standalonejar}" todir="test/" />
   </target>
 
   <target name="compile" depends="standalone-client,eclipse-references" />

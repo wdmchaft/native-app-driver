@@ -25,3 +25,4 @@ keep com.google.common.primitives.Ints
 keep javax.servlet.**
 keep org.mortbay.**
 keep org.openqa.selenium.support.ui.**
+keep org.openqa.selenium.interactions.**

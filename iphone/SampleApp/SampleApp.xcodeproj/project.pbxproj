@@ -36,13 +36,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EF0DF19413CD63A4003A3877 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF53394113CC1CBD0033509D /* NativeDriver.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6736FAFF13CC0D0600DADFA7;
-			remoteInfo = "Test All";
-		};
 		EF3679F813CC1E1E00108A89 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EF53394113CC1CBD0033509D /* NativeDriver.xcodeproj */;
@@ -125,7 +118,6 @@
 			children = (
 				EF53394E13CC1CBF0033509D /* libNativeDriver.a */,
 				EF53395013CC1CBF0033509D /* NativeDriverTests.octest */,
-				EF0DF19513CD63A4003A3877 /* Test All.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -259,13 +251,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		EF0DF19513CD63A4003A3877 /* Test All.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Test All.app";
-			remoteRef = EF0DF19413CD63A4003A3877 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		EF53394E13CC1CBF0033509D /* libNativeDriver.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;

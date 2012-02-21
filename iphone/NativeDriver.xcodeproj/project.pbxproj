@@ -119,18 +119,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EF0DF1B413CD64F5003A3877 /* PBXContainerItemProxy */ = {
+		6A3EE57914EEAA8B00E0CC12 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EF0DF1AD13CD64F4003A3877 /* CocoaHTTPServerLibrary.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8319631B0F28464E005D1D21;
-			remoteInfo = CocoaHTTPServer;
-		};
-		EF0DF1D613CD656D003A3877 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EF0DF1AD13CD64F4003A3877 /* CocoaHTTPServerLibrary.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 8319631A0F28464E005D1D21;
 			remoteInfo = CocoaHTTPServer;
 		};
 		EF2F20911386560300433A9B /* PBXContainerItemProxy */ = {
@@ -189,7 +182,7 @@
 		6736FB7413CC1CD200DADFA7 /* GTMUnitTestDevLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMUnitTestDevLog.h; path = "ThirdParty/google-toolbox-for-mac/UnitTesting/GTMUnitTestDevLog.h"; sourceTree = "<group>"; };
 		6736FB7513CC1CD200DADFA7 /* GTMUnitTestDevLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMUnitTestDevLog.m; path = "ThirdParty/google-toolbox-for-mac/UnitTesting/GTMUnitTestDevLog.m"; sourceTree = "<group>"; };
 		6736FBB813CC233E00DADFA7 /* TestAll-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TestAll-Info.plist"; sourceTree = "<group>"; };
-		EF0DF1AD13CD64F4003A3877 /* CocoaHTTPServerLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaHTTPServerLibrary.xcodeproj; path = "ThirdParty/iphone_webdriver/lib/buildtime-src/cocoahttpserver/CocoaHTTPServerLibrary.xcodeproj"; sourceTree = "<group>"; };
+		EF0DF1AD13CD64F4003A3877 /* CocoaHTTPServerLibrary.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CocoaHTTPServerLibrary.xcodeproj; path = "/Users/ddary/workspaces/nativedriver/native-app-driver/iphone/ThirdParty/iphone_webdriver/lib/buildtime-src/cocoahttpserver/CocoaHTTPServerLibrary.xcodeproj"; sourceTree = "<absolute>"; };
 		EF17647413E684FB007045DC /* NDAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NDAttribute.h; path = Classes/VirtualDirectory/NDAttribute.h; sourceTree = SOURCE_ROOT; };
 		EF17647513E684FB007045DC /* NDAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NDAttribute.m; path = Classes/VirtualDirectory/NDAttribute.m; sourceTree = SOURCE_ROOT; };
 		EF17647D13E68A83007045DC /* NDAttributeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDAttributeTest.h; sourceTree = "<group>"; };
@@ -344,10 +337,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EF0DF1AE13CD64F4003A3877 /* Products */ = {
+		6A3EE57614EEAA8B00E0CC12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF0DF1B513CD64F5003A3877 /* libCocoaHTTPServer.a */,
+				6A3EE57A14EEAA8B00E0CC12 /* libCocoaHTTPServer.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -748,7 +741,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				EF0DF1D713CD656D003A3877 /* PBXTargetDependency */,
 			);
 			name = NativeDriver;
 			productName = NativeDriver;
@@ -793,7 +785,7 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = EF0DF1AE13CD64F4003A3877 /* Products */;
+					ProductGroup = 6A3EE57614EEAA8B00E0CC12 /* Products */;
 					ProjectRef = EF0DF1AD13CD64F4003A3877 /* CocoaHTTPServerLibrary.xcodeproj */;
 				},
 				{
@@ -810,11 +802,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		EF0DF1B513CD64F5003A3877 /* libCocoaHTTPServer.a */ = {
+		6A3EE57A14EEAA8B00E0CC12 /* libCocoaHTTPServer.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libCocoaHTTPServer.a;
-			remoteRef = EF0DF1B413CD64F5003A3877 /* PBXContainerItemProxy */;
+			remoteRef = 6A3EE57914EEAA8B00E0CC12 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		EF4FA6FD138CFA5800936103 /* OCMock.framework */ = {
@@ -946,11 +938,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EF0DF1D713CD656D003A3877 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaHTTPServer;
-			targetProxy = EF0DF1D613CD656D003A3877 /* PBXContainerItemProxy */;
-		};
 		EF2F20921386560300433A9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EFC121BD1378D359009E3F71 /* NativeDriver */;
